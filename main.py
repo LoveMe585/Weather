@@ -5,17 +5,21 @@
 
 
 from wxpy import *
+from Message import *
 
 
 #进行登录
-bot = Bot(console_qr=True, cache_path=True)
+bot = Bot(console_qr=1, cache_path=True)
 #启用puid
 bot.enable_puid('wxpy_puid.pkl')
 
-groups = bot.groups().search('老铁2群')[0]
+groups = bot.groups().search('今年贼吃鸡')[0]
 
-for group in groups:
-    print(group.name)
+message = Message()
+ms = message.sendLuo()
+groups.send(ms)
+ms = message.sendXman()
+groups.send(ms)
 
 # luozong = group.search('罗正顺').
 # print(luozong)

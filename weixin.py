@@ -16,3 +16,7 @@ class weinxin:
         self.bot.enable_puid('wxpy_puid.pkl')
 
 
+
+
+
+

@@ -134,5 +134,14 @@ class Weather:
 #     for hourly in tianqi['data']['hourly']:
 #         print(hourly)hourly
 
-result = Weather().getNowWeaher(547)
-print(result)
+# result = Weather().getNowWeaher(547)
+# ll = ('城市： ' + str(result['city']) + '\n' +
+#       '天气情况： ' + str(result['condition']) + '\n' +
+#       '当前温度： ' + str(result['temp']) + '\n' +
+#       '体感温度： ' + str(result['realFeel']) + '\n' +
+#       '温馨提示： ' + str(result['tips']))
+
+# print(ll)
+
+
+
